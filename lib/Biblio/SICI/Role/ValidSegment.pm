@@ -1,6 +1,6 @@
 package Biblio::SICI::Role::ValidSegment;
 {
-  $Biblio::SICI::Role::ValidSegment::VERSION = '0.01';
+  $Biblio::SICI::Role::ValidSegment::VERSION = '0.02';
 }
 
 # ABSTRACT: Role to provide common validation error handling functionality to the segments
@@ -72,7 +72,7 @@ Biblio::SICI::Role::ValidSegment - Role to provide common validation error handl
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

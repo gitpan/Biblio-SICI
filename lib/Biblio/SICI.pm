@@ -1,7 +1,7 @@
 
 package Biblio::SICI;
 {
-  $Biblio::SICI::VERSION = '0.01';
+  $Biblio::SICI::VERSION = '0.02';
 }
 
 # ABSTRACT: Provides methods for assembling, parsing, manipulating and serialising SICIs
@@ -351,7 +351,7 @@ Biblio::SICI - Provides methods for assembling, parsing, manipulating and serial
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

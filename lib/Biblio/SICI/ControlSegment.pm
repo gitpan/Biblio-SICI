@@ -1,7 +1,7 @@
 
 package Biblio::SICI::ControlSegment;
 {
-  $Biblio::SICI::ControlSegment::VERSION = '0.01';
+  $Biblio::SICI::ControlSegment::VERSION = '0.02';
 }
 
 # ABSTRACT: The control segment of a SICI
@@ -129,7 +129,7 @@ Biblio::SICI::ControlSegment - The control segment of a SICI
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

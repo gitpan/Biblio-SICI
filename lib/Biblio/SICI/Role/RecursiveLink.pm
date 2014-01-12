@@ -1,6 +1,6 @@
 package Biblio::SICI::Role::RecursiveLink;
 {
-  $Biblio::SICI::Role::RecursiveLink::VERSION = '0.01';
+  $Biblio::SICI::Role::RecursiveLink::VERSION = '0.02';
 }
 
 # ABSTRACT: Role to provide a "link" to the parent Biblio::SICI
@@ -34,7 +34,7 @@ Biblio::SICI::Role::RecursiveLink - Role to provide a "link" to the parent Bibli
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

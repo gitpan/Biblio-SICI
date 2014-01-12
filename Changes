@@ -1,4 +1,8 @@
 
-0.01      2014-01-11 21:10:18 Europe/Berlin
+0.02      2014-01-12 16:56:43 Europe/Berlin
+	- Get rid of File::Find::Rule dependency;
+		use in-core File::Find
+
+0.01      2014-01-11 21:09:48 Europe/Berlin
 	- Initial release
 

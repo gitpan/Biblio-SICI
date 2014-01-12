@@ -6,6 +6,7 @@ META.yml
 Makefile.PL
 README
 dist.ini
+dist.ini~
 lib/Biblio/SICI.pm
 lib/Biblio/SICI/ContributionSegment.pm
 lib/Biblio/SICI/ControlSegment.pm

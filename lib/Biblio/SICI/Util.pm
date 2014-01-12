@@ -1,7 +1,7 @@
 
 package Biblio::SICI::Util;
 {
-  $Biblio::SICI::Util::VERSION = '0.01';
+  $Biblio::SICI::Util::VERSION = '0.02';
 }
 
 # ABSTRACT: Utility functions
@@ -138,7 +138,7 @@ Biblio::SICI::Util - Utility functions
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
