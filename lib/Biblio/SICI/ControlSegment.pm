@@ -1,7 +1,7 @@
 
 package Biblio::SICI::ControlSegment;
 {
-  $Biblio::SICI::ControlSegment::VERSION = '0.03';
+  $Biblio::SICI::ControlSegment::VERSION = '0.04';
 }
 
 # ABSTRACT: The control segment of a SICI
@@ -20,7 +20,7 @@ with 'Biblio::SICI::Role::ValidSegment', 'Biblio::SICI::Role::RecursiveLink';
 has 'dpi' => (
 	is        => 'rw', lazy => 1,
 	trigger   => 1,
-	default   => quote_sub(q{ return 0 }),
+	default   => quote_sub(q{ 0 }),
 	predicate => 1,
 	clearer   => 1,
 );
@@ -39,8 +39,13 @@ sub _trigger_dpi {
 }
 
 
-has 'mfi' =>
-	( is => 'rw', lazy => 1, trigger => 1, default => 'ZU', predicate => 1, clearer => 1, );
+has 'mfi' => (
+	is        => 'rw', lazy => 1,
+	trigger   => 1,
+	default   => quote_sub(q{ "ZU" }),
+	predicate => 1,
+	clearer   => 1,
+);
 
 sub _trigger_mfi {
 	my ( $self, $newVal ) = @_;
@@ -59,7 +64,7 @@ sub _trigger_mfi {
 has 'version' => (
 	is        => 'rw', lazy => 1,
 	trigger   => 1,
-	default   => quote_sub(q{ return 2 }),
+	default   => quote_sub(q{ 2 }),
 	predicate => 1,
 	clearer   => 1,
 );
@@ -129,7 +134,7 @@ Biblio::SICI::ControlSegment - The control segment of a SICI
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 

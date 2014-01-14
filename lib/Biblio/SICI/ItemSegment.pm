@@ -1,7 +1,7 @@
 
 package Biblio::SICI::ItemSegment;
 {
-  $Biblio::SICI::ItemSegment::VERSION = '0.03';
+  $Biblio::SICI::ItemSegment::VERSION = '0.04';
 }
 
 # ABSTRACT: The item segment of a SICI
@@ -495,7 +495,7 @@ Biblio::SICI::ItemSegment - The item segment of a SICI
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 

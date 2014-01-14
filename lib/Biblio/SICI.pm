@@ -1,7 +1,7 @@
 
 package Biblio::SICI;
 {
-  $Biblio::SICI::VERSION = '0.03';
+  $Biblio::SICI::VERSION = '0.04';
 }
 
 # ABSTRACT: Provides methods for assembling, parsing, manipulating and serialising SICIs
@@ -63,7 +63,7 @@ has 'mode' => (
 		return $val if ( $val eq 'strict' or $val eq 'lax' );
 		return 'lax';
 	},
-	default => 'lax',
+	default => quote_sub(q{ "lax" }),
 );
 
 
@@ -351,7 +351,7 @@ Biblio::SICI - Provides methods for assembling, parsing, manipulating and serial
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 

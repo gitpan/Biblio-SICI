@@ -1,7 +1,7 @@
 
 package Biblio::SICI::ContributionSegment;
 {
-  $Biblio::SICI::ContributionSegment::VERSION = '0.03';
+  $Biblio::SICI::ContributionSegment::VERSION = '0.04';
 }
 
 # ABSTRACT: The contribution segment of a SICI
@@ -128,7 +128,7 @@ Biblio::SICI::ContributionSegment - The contribution segment of a SICI
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
